@@ -1,0 +1,199 @@
+h1 {
+	font-size: 18px;
+    color: #922339; /* dark red */
+    padding: 5px 10px;
+}
+
+#h2 {
+	color: #922339; /* dark red */
+}
+
+h3 {
+	color: #922339; /* dark red */
+}
+
+h5 {
+	color: #922339; /* dark red */
+}
+
+a {
+	color: #922339; /* dark red */
+}
+a:hover {
+	background-color: #B9BFA7; /* medium green */
+}
+a.logout:hover {
+	background-color: #8A946D; /* medium green */
+}
+
+
+a.link_current_page {
+	color: #C45034; /* dark orange */
+}
+
+tt.tiper {
+	color: #922339; /* dark red */
+}
+.tiper {
+	color: #6E7B4A; /* dark green */
+}
+
+/*******************************/ /** detailPanel (grid binding) */
+fieldset {
+	border-color: #B9BFA7; /* medium green */
+	background-color: #eee; /** Light green */
+}
+
+legend {
+	color: #6E7B4A; /* dark green */
+}
+
+.south-panel {
+	color: #6E7B4A; /* dark green */
+	background-color: #D0D4C5;
+}
+.logout {
+	color: #D0D4C5; /* dark green */
+	background-color: #8A946D;
+}
+
+.rowWithBorder td {
+	border-color: silver;
+}
+
+hr {
+	color: #B9BFA7; /* medium green */
+	border-top: 1px solid #B9BFA7; /* medium green */
+	border-bottom: 1px solid white; /* medium green */
+	background-color: #B9BFA7; /* medium green */
+}
+
+div.vr {
+	border-left: 1px solid #B9BFA7; /* medium green */
+	border-right: 1px solid white; /* medium green */
+	width: 0px;
+	overflow: none;
+}
+
+/* Upload form */
+.x-check-radio {
+	background: #D0D4C5;
+}
+
+.uploadform-option {
+	border-color: #B9BFA7; /* medium green */
+}
+
+.x-grid3-cell-inner, .x-grid3-hd-inner { 
+	white-space: normal !important;  
+}
+
+.hide-cb-header .x-grid3-hd-checker {
+/*	background-image: none;         hide CheckboxSelectionModel header image */
+}
+.x-grid3-row td,  .x-grid3-summary-row td,  .x-grid3-cell-text,
+.x-grid3-hd-text, .x-grid3-hd, .x-grid3-row
+{
+    -moz-user-select:inherit;
+    -khtml-user-select:text;
+}
+/**********************/ /*GridPanel row spaning*/
+.grid-row-span .x-grid3-row {
+    border-bottom: 0px solid #B9BFA7; /* #ededed;*/
+}
+.grid-row-span .x-grid3-col {
+    border-bottom: 1px solid #B9BFA7; /*#ededed; */
+}
+.grid-row-span .row-span {
+    border-bottom: 1px solid #fff;
+}
+.grid-row-span .row-span-first {
+    position: relative;
+}
+.grid-row-span .row-span-first .x-grid3-cell-inner {
+/*    position: absolute; */
+    white-space: normal !important; 
+}
+.grid-row-span .row-span-last {
+    border-bottom: 1px solid #B9BFA7; /*#ededed;*/ 
+}
+
+/**********************/ /* PCR plate as table */
+	/**********************/
+
+.pcr_plate th {
+	color: #B9BFA7; /* medium green */
+}
+
+.pcr_plate td {
+	/*background-color: #eee; /** Light green */
+}
+
+.pcr_plate th.selected {
+	color: #6E7B4A; /* dark green */
+}
+
+.pcrplate96-info {
+	color: #6E7B4A; /* dark green */
+}
+.pcrplate96-img {
+	background-color: #EEEEEE; /** Light green */
+}
+.pcrplate96-img {
+	color: #B9BFA7; /* medium green */	
+}
+.pcrplate96-show {
+	color: #6E7B4A; /* dark green */
+}
+
+
+
+.icon-bullet {
+	background-image:url(../images/icons/bullet_green.png) !important;
+}
+.icon-bullet-selected {
+	background-image:url(../images/icons/bullet_red.png) !important;
+}
+
+
+p.statusbar-info {
+	color: #B9BFA7; /* medium green */	
+}
+
+
+tr.em-on-hover:hover {
+	background-color: #B9BFA7; /* medium green */	
+}
+tr.highlight {
+	color: #922339; /* dark red */
+}
+tr.fade {
+	color: #B9BFA7; /* medium green */	
+}
+
+
+/**********************/ 
+/*Button*/
+.icon-add {
+    background-image:url(../lib/ext-3.1.0/examples/shared/icons/fam/add.gif) !important;	
+}
+
+.icon-delete {
+    background-image:url(../lib/ext-3.1.0/examples/shared/icons/fam/delete.gif) !important;    
+}
+
+.icon-save {
+    background-image:url(../lib/ext-3.1.0/examples/shared/icons/save.gif) !important;    
+}
+
+/*Round Corner Button*/
+.refButton {
+	background:#fff;
+	border: 1px solid #c0c0c0;
+	border-radius: 10px;
+	width: 70px;
+	text-align: center;
+	color: #922339; /* dark red */
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px
+}

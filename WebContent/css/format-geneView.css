@@ -1,0 +1,33 @@
+body{margin:0;padding:0;font-family:sans-serif;color:black;background-color:white;font-size:small;}
+#content{margin:1em 1em;clear:both;}
+#content td{vertical-align:top;}
+a:link,a:active,a:visited{text-decoration:none;}
+a.goTop:link,a.goTop:visited {color:black; vertical-align: top; }
+h1{font-size:1.25em;margin-top:2em;margin-bottom:0;}
+h2{font-size:1.25em;font-weight:normal;margin-bottom:0;}
+h2+*{margin-top:.5em;}
+#header{font-size:small;color:white;background-color:#2A4F7C;border-collapse:collapse;width:100%;background:#EEE;}
+#header a:link,#header a:visited{color:white;text-decoration:none;}
+#toc,.toc{font-size:small;padding:.5em 0;margin-top:-0.5em;margin-bottom:1.0em;clear:both;}
+.toc{border-top:5px solid #DEDEDE;}
+.toc{margin-top: 2em; }
+.show-sources { display: none; } 
+div.nice{padding-top:0;clear:both;}
+div.section{line-height:1.5;}
+div.section+div.section{border-top:1px dotted black;}
+.nice table{width:100%;border-collapse:collapse;border:2px solid white; border-bottom:1px solid #DEDEDE;clear:both;}
+.nice th,.nice td{border:1px solid #DEDEDE;padding:.2em .3em;}
+.nice th{text-align:left;}
+.nice{width:100%;border:1px solid white;}.
+.nice h2{font-size:1em;font-weight:bold;color:white;background-color:#aaa;-moz-border-radius:.5em;-webkit-border-radius:.5em;padding:.25em .5em;margin-top:0;margin-bottom:0;}
+.nice h3{font-size:1em;font-weight:bold;padding:.25em .5em;margin-top:0;margin-bottom:.5em;}
+.nice tr.subsection th{font-size:small;border-top:0em solid white;border-bottom:1px solid #DEDEDE;text-align:left;padding:1.25em 0 .45em 0;}
+.nice .first-column{width:14em;}
+.nice td.first-column{background-color:#EEE;vertical-align:top;}
+.nice table table{width:auto;margin-bottom:0;border:1px solid white;}
+.nice table table td{text-align:left;background-color:inherit;color:inherit;border:none;padding:0;}
+.nice table table td+td{text-align:left;}
+.nice table table.sub-table{width:100%;}
+.nice table table.sub-table td{text-align:left;}
+.nice-content{margin-bottom:1.5em;}
+.nice-content td{padding:.25em .5em;}

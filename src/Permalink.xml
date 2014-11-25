@@ -1,0 +1,93 @@
+<permalinks>   
+    <Permalink>
+        <pattern>clap/Login</pattern>
+        <dispatcher>clap.app.dispatcher.LoginDispatcher</dispatcher>
+    </Permalink>    
+    <Permalink>
+        <pattern>clap/Logout</pattern>
+        <dispatcher>clap.app.dispatcher.LogoutDispatcher</dispatcher>
+    </Permalink>    
+    <Permalink>
+        <pattern>clap/literatures/(.*)</pattern>
+        <dispatcher>clap.app.dispatcher.LiteraturesDispatcher</dispatcher>
+        <attribute name="id" />
+    </Permalink>
+    <Permalink>
+        <pattern>clap/Search</pattern>
+        <dispatcher>clap.app.dispatcher.SearchDispatcher</dispatcher>
+    </Permalink>
+    <Permalink>
+        <pattern>clap/Search?(.*)</pattern>
+        <dispatcher>clap.app.dispatcher.SearchDispatcher</dispatcher>
+        <attribute name="term" />
+    </Permalink>  
+    <Permalink>
+        <pattern>clap/Download</pattern>
+        <dispatcher>clap.app.dispatcher.DownloadBatchDispatcher</dispatcher>
+    </Permalink>    
+    <Permalink>
+        <pattern>clap/DirectDownload</pattern>
+        <dispatcher>clap.app.dispatcher.DirectDownloadDispatcher</dispatcher>
+    </Permalink>    
+    <Permalink>
+        <pattern>clap/DirectDownload/(.*)</pattern>
+        <dispatcher>clap.app.dispatcher.DirectDownloadDispatcher</dispatcher>
+        <attribute name="downloadfile" />
+    </Permalink>    
+    <Permalink>
+        <pattern>clap/GetGeneSequence</pattern>
+        <dispatcher>clap.app.dispatcher.GetGeneSequenceDispatcher</dispatcher>
+    </Permalink>    
+    <Permalink>
+        <pattern>clap/Correction</pattern>
+        <dispatcher>clap.app.dispatcher.CorrectionDispatcher</dispatcher>
+    </Permalink>    
+    <Permalink>
+        <pattern>clap/NewEntry</pattern>
+        <dispatcher>clap.app.dispatcher.NewentryDispatcher</dispatcher>
+    </Permalink>       
+    <Permalink>
+        <pattern>clap/GeneView/(.*)</pattern>
+        <dispatcher>clap.app.dispatcher.GeneViewDispatcher</dispatcher>
+        <attribute name="entryName" />
+    </Permalink>    
+    <Permalink>
+        <pattern>clap/GeneHistoryView/(.*)</pattern>
+        <dispatcher>clap.app.dispatcher.GeneHistoryViewDispatcher</dispatcher>
+        <attribute name="entryName" />
+    </Permalink>    
+    <Permalink>
+        <pattern>clap/UsefulLinks</pattern>
+        <dispatcher>clap.app.dispatcher.UsefulLinksDispatcher</dispatcher>
+    </Permalink>     
+    <Permalink>
+        <pattern>clap/UpdateData</pattern>
+        <dispatcher>clap.app.dispatcher.UpdateDataDispatcher</dispatcher>
+    </Permalink>    
+    <Permalink>
+        <pattern>clap/AboutUs</pattern>
+        <dispatcher>clap.app.dispatcher.AboutUsDispatcher</dispatcher>
+    </Permalink>     
+    <Permalink>
+        <pattern>clap/Help</pattern>
+        <dispatcher>clap.app.dispatcher.HelpDispatcher</dispatcher>
+    </Permalink>    
+    <Permalink>
+        <pattern>clap/TermsAndConditions</pattern>
+        <dispatcher>clap.app.dispatcher.TermsAndConditionsDispatcher</dispatcher>
+    </Permalink>
+    <Permalink>
+        <pattern>clap/DataView</pattern>
+        <dispatcher>clap.app.dispatcher.DisplayDataDispatcher</dispatcher>
+    </Permalink>
+    <Permalink>
+        <pattern>clap/DataView?(.*)</pattern>
+        <dispatcher>clap.app.dispatcher.DisplayDataDispatcher</dispatcher>
+        <!-- <attribute name="fieldName" />
+        <attribute name="searchTerm" /> -->
+    </Permalink>
+    <Permalink>
+        <pattern>clap/SummaryView</pattern>
+        <dispatcher>clap.app.dispatcher.SummaryViewDispatcher</dispatcher>
+    </Permalink>   
+</permalinks>

@@ -1,0 +1,25 @@
+# File: MyResources.properties
+#
+mySqlHostName=localhost:3306
+mySqlUserName=
+mySqlPassword=
+mySqlDatabase=mycoclap
+mySqlTablePrefix=
+
+UserDatabase=MYCOCLAP_USER
+AccessXMLFile=WEB-INF/classes/Access.xml
+
+LogLevel=
+LogFile=
+ConcreteRole_1=org.dsrg.soenea.domain.role.impl.GuestRole
+ConcreteRole_2=clap.dom.model.role.impl.UserRole
+ConcreteRole_3=clap.dom.model.role.impl.AdminRole
+
+myHost=http://localhost:8080
+urlbase=http://localhost:8080/
+myDefaultURL=http://localhost:8080/clap
+
+defaultDispatcher=clap.app.dispatcher.TbrowseDispatcher
+
+
+

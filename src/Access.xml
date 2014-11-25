@@ -1,0 +1,44 @@
+<access>
+	<role name="org.dsrg.soenea.domain.role.impl.GuestRole">
+		<command name="clap.app.dispatcher.LoginDispatcher"/>
+        <command name="clap.app.dispatcher.LogoutDispatcher"/>
+        <command name="clap.app.dispatcher.TbrowseDispatcher"/>
+        <command name="clap.app.dispatcher.SearchDispatcher"/>
+        <command name="clap.app.dispatcher.DisplayDataDispatcher"/>
+        <command name="clap.app.dispatcher.DownloadBatchDispatcher"/>
+        <command name="clap.app.dispatcher.DownloadDataDispatcher"/>
+        <command name="clap.app.dispatcher.DirectDownloadDispatcher"/>
+        <command name="clap.app.dispatcher.GetGeneSequenceDispatcher"/>
+        <command name="clap.app.dispatcher.ListEntryNameDispatcher"/>
+        <command name="clap.app.dispatcher.ListFieldsDispatcher"/>
+        <command name="clap.app.dispatcher.ListSearchTermDispatcher"/>
+        <command name="clap.app.dispatcher.NewentryDispatcher"/>
+        <command name="clap.app.dispatcher.CorrectionDispatcher"/>
+        <command name="clap.app.dispatcher.ContactDispatcher"/>
+        <command name="clap.app.dispatcher.GeneViewDispatcher"/>
+        <command name="clap.app.dispatcher.GeneHistoryViewDispatcher"/>
+        <command name="clap.app.dispatcher.HmmDispatcher"/>
+        <command name="clap.app.dispatcher.RequestPasswordResetDispatcher"/>
+        <command name="clap.app.dispatcher.UsefulLinksDispatcher"/>
+        <command name="clap.app.dispatcher.AboutUsDispatcher"/>
+        <command name="clap.app.dispatcher.HelpDispatcher"/>
+        <command name="clap.app.dispatcher.TermsAndConditionsDispatcher"/>
+        <command name="clap.app.dispatcher.FamilyActivitySummaryDispatcher"/>
+        <command name="clap.app.dispatcher.SummaryViewDispatcher"/>
+	</role>
+	
+    <role name="clap.dom.model.role.impl.UserRole">
+    	<command name="clap.app.dispatcher.LiteraturesDispatcher"/>
+    </role>
+    
+    <role name="clap.dom.model.role.impl.AdminRole">
+        <command name="clap.app.dispatcher.UserRegistrationDispatcher"/>
+        <command name="clap.app.dispatcher.UpdateDataDispatcher"/>
+        <command name="clap.app.dispatcher.DeleteDataDispatcher"/>
+        <command name="clap.app.dispatcher.InsertNewDataInFileDispatcher"/>
+        <command name="clap.app.dispatcher.InsertNewDataInGridDispatcher"/>
+        <command name="clap.app.dispatcher.InsertNewReferenceInFileDispatcher"/>
+        <command name="clap.app.dispatcher.RequestUploadTemplateDispatcher"/>
+    </role>
+	
+</access>
